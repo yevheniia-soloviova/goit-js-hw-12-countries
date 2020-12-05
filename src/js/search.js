@@ -1,6 +1,6 @@
 import debounce from 'lodash.debounce';
-import API from './fetchCountries.js';
-import listOfContriesTpl from '../templates/list-of-countries.hbs';
+import API from '../js/fetchCountries.js';
+import listOfCountriesTpl from '../templates/list-of-countries.hbs';
 import countryCardTpl from '../templates/country-markup.hbs';
 
 import { info, error } from '@pnotify/core';
