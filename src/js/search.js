@@ -38,7 +38,7 @@ function checkingNumberOfCountries(countries) {
     tooManyCountries();
   } else if (countries.length <= 10 && countries.length > 1) {
     clearMarkup();
-    renderMarkup(listOfContriesTpl, countries);
+    renderMarkup(listOfCountriesTpl, countries);
   } else if (countries.length === 1) {
     clearMarkup();
     renderMarkup(countryCardTpl, countries[0]);
